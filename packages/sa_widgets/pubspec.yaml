@@ -1,0 +1,21 @@
+name: sa_widgets
+description: "Super Ability 通用组件包 - 可复用的 UI 组件"
+version: 0.0.1
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.13.0 <4.0.0"
+  flutter: ">=3.47.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sa_core:
+    path: ../sa_core
+  sa_theme:
+    path: ../sa_theme
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^11.0.0

@@ -1,0 +1,17 @@
+name: sa_core
+description: "Super Ability 核心基础包 - 常量、枚举、基础配置"
+version: 0.0.1
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.13.0 <4.0.0"
+  flutter: ">=3.47.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^11.0.0

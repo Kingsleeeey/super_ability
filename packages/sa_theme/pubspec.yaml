@@ -1,0 +1,19 @@
+name: sa_theme
+description: "Super Ability 主题包 - 语义化颜色令牌、排版与间距规范、服务端动态配色"
+version: 0.1.0
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.13.0 <4.0.0"
+  flutter: ">=3.47.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sa_core:
+    path: ../sa_core
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^11.0.0
